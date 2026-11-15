@@ -249,10 +249,9 @@ if page == "Overview":
     )
 
     c2.metric(
-        "Annual trend",
-        f"{slope:.4f}",
-        "million km²/year"
-    )
+    "Annual trend",
+    f"{slope:.4f} million km²/year"
+)
 
     c3.metric(
         "Highest extent",
