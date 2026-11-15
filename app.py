@@ -248,9 +248,9 @@ if page == "Overview":
         f"{len(df)}"
     )
 
-    c2.metric(
-    "Annual trend",
-    f"{slope:.4f} million km²/year"
+c2.metric(
+    "Trend (million km²/year)",
+    f"{slope:.4f}"
 )
 
     c3.metric(
