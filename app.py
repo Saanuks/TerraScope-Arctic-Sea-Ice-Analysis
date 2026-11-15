@@ -248,10 +248,10 @@ if page == "Overview":
         f"{len(df)}"
     )
 
-c2.metric(
+    c2.metric(
     "Trend (million km²/year)",
     f"{slope:.4f}"
-)
+    )
 
     c3.metric(
         "Highest extent",
